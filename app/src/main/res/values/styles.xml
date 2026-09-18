@@ -1,0 +1,5 @@
+<resources>
+<style name="Theme.TwoPerson" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <item name="android:fontFamily">sans</item><item name="android:colorAccent">@color/green</item><item name="android:navigationBarColor">@color/bg</item><item name="android:statusBarColor">@color/bg</item>
+</style>
+</resources>

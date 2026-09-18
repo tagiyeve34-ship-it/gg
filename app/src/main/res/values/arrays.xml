@@ -1,0 +1,6 @@
+<resources>
+<string-array name="auto_clear_options">
+    <item>Söndürülüb</item><item>1 dəqiqə</item><item>5 dəqiqə</item>
+    <item>15 dəqiqə</item><item>30 dəqiqə</item><item>1 saat</item>
+</string-array>
+</resources>

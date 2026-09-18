@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:gravity="center" android:padding="28dp" android:background="@color/bg" android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView android:text="Messenger" android:textSize="34sp" android:textStyle="bold" android:textColor="@color/text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="Yalnız iki nəfər üçün" android:textColor="@color/muted" android:layout_marginBottom="28dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/username" android:hint="İstifadəçi adı" android:textColor="@color/text" android:textColorHint="@color/muted" android:backgroundTint="@color/green" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<EditText android:id="@+id/pin" android:hint="PIN" android:inputType="numberPassword" android:textColor="@color/text" android:textColorHint="@color/muted" android:backgroundTint="@color/green" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/loginBtn" android:text="Daxil ol" android:layout_marginTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/error" android:textColor="#FF6B6B" android:layout_marginTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
